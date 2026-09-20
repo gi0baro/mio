@@ -58,6 +58,7 @@ pub mod event;
 
 cfg_io_source! {
     mod io_source;
+    pub use io_source::IoSource;
 }
 
 cfg_net! {
